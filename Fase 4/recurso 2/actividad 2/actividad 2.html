@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario CSS Grid</title>
+    <meta description="Se hace una evaluación sobre el tema de Flex Box">
+    <meta author="Daniel Álvarez Ceballos">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/encabezado_unad" alt="encabezado" width="100%">
+        <h1 class="text-center">Cuestionario CSS Grid</h1>
+    </header>
+    <hr>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Temas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="tema 1/tema 1.html">Tema 1</a></li>
+                      <li><a class="dropdown-item" href="tema 2/tema 2.html">Tema 2</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Recursos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="recurso 1/recurso 1.html">Recurso 1</a></li>
+                      <li><a class="dropdown-item" href="recurso 2/recurso 2.html">Recurso 2</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Aprendizaje
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="actividad 1.html">Actividad 1</a></li>
+                  <li><a class="dropdown-item" href="actividad 2/actividad 2.html">Actividad 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Acerca de
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="autor/autor.html">Autor</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <hr>
+    <div class="container">
+        <section class="main row">
+            <article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+                <p>El siguiente cuestionario es para evaluar el de CSS Grid 
+                    que se ha tratado durante el curso.</p>
+            </article>
+            <article class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSeIJczQpWioVWOSHSjZze2rgfYY0ua-Ogwl82Jb6HAyxlWbvQ/viewform?usp=sf_link"
+                    width="640" height="2032" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+            </article>
+            <h5>Información del cuestionario recuperada de:</h5>
+            <h6>https://dalvarezce.github.io/DSW-DanielAlvarez/Fase%203/index.html</h6>
+        </section>
+        <aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fpg%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="335" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </div>
+  
+    <footer class="text-center">
+        <img src="imagenes/encabezado_unad" alt="pie de página" width="100%">
+        <h6>Contacto: Daniel Álvarez Ceballos <br>
+            email: dalvarez1113@gmail.com <br>
+            Skype: dalvarez1516@hotmail.com <br>
+            Fecha: 9/5/2021
+        </h6>
+    </footer>
+</body>
+
+</html>
